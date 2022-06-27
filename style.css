@@ -4,3 +4,26 @@ body {
     min-height: 100vh;
     margin: 0;
 }
+.page-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.page-header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+.page-header a {
+    display: block;
+    padding: 0.5em;
+    text-decoration: none;
+    color: #E5E7EB;
+}
